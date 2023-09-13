@@ -133,7 +133,6 @@ input.petis-control {
     border-radius: 0;
     border-bottom-style: solid;
     border-bottom-width: 2px;
-    font-size: 25px;
 }
 
 input[type="text"].text-info, textarea {

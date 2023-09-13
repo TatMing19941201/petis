@@ -21,30 +21,60 @@
     clip-path: polygon(0 0, 100% 100%, 0 100%);
     shape-outside: polygon(0 0, 100% 100%, 0 100%);
 }
-.top-title {
-    font-size: 68px;
-    line-height: 0.75;
+
+/** font-size for top-title **/
+@media (max-width: 768px) {
+    .top-title {
+        font-size: 39px;
+        line-height: 1;
+    }
 }
-.top-search-card {
-    margin: 30px;
+@media (min-width: 768px) {
+    .top-title {
+        font-size: 60px;
+        line-height: 1;
+    }
+}
+
+@media (min-width: 992px) {
+    .top-title {
+        font-size: 68px;
+        line-height: 1;
+    }
+}
+
+@media (max-width: 1200px) {
+    .search-form-label {
+        font-size: 26px;
+    }
+    .search-form-placeholder, .search-form-placeholder::placeholder {
+        font-size: 20px;
+    }
+    .search-button {
+        font-size: 27px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .top-title {
+        font-size: 68px;
+        line-height: 1;
+    }
+    .search-form-label {
+        font-size: 29px;
+    }
+    .search-form-placeholder, .search-form-placeholder::placeholder {
+        font-size: 22px;
+    }
+    .search-button {
+        font-size: 30px;
+    }
 }
 
 .top .top-content {
-    width: 100%;
-    height: 100%;
     position: absolute;
     bottom: 0px;
     top: auto;
-    padding-left: 136px;
-    padding-right: 136px;
-}
-.top-content .top-content-container {
-    width: 100%;
-    margin-bottom: 60px;
-}
-
-.search-form {
-    padding: 16px 0px;
 }
 
 .keyword-box .search-icon {
@@ -55,6 +85,7 @@
     vertical-align: bottom;
     line-height: 64px;
 }
-.keyword-box  .controller {
+
+.keyword-box .controller {
     width: calc(100% - 64px);
 }
