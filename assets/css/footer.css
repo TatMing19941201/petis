@@ -1,0 +1,73 @@
+.sitemap-title {
+    font-size: 105%;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+ul.social-links {
+    display: flex;
+    flex-direction: row;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.social-links li a {
+    color: inherit;
+}
+
+.sitemap-items-list {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.sitemap-items-list li a {
+    color: inherit;
+}
+
+.card.card.card-liguem-me, .card.card-linha-sos, .card.card-live-chat {
+    border: 2px solid white;
+    margin: 50px 10px;
+    border-radius: 20px;
+}
+
+.card.card.card-liguem-me .card-text, .card.card-linha-sos .card-text, .card.card-live-chat .card-text {
+    font-size: 16px;
+}
+
+.card.card-live-chat {
+    background-color: #5DA55F;
+}
+.card.card-liguem-me {
+    background-color: #82C4B6;
+}
+.card.card-linha-sos {
+    background-color: #C52055;
+}
+
+.subscrever-form .input-group{
+    padding: 2px;
+    border: 1px solid white;
+    border-radius: 30px;
+}
+
+.subscrever-form .input-group input {
+    background-color: transparent;
+    border-radius: 30px;
+    color: white;
+    border: none;
+    
+}
+
+.subscrever-form .input-group input::placeholder {
+    color: white;
+}
+
+.subscrever-form .input-group button {
+    border-radius: 30px !important;
+    color: #C52055;
+    border-color: white;
+    background-color: white;
+}

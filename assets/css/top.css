@@ -1,0 +1,60 @@
+.top {
+    background-color: gray;
+    height: 700px;
+    padding: 0;
+    position: relative;
+}
+
+.top .top-bg {
+    /* background-color: gray; */
+    background-image: url(../images/group3.png);
+    position: relative;
+    height: 100%;
+}
+
+.top-bg .top-bg-slice {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 5%;
+    background-color: white;
+    clip-path: polygon(0 0, 100% 100%, 0 100%);
+    shape-outside: polygon(0 0, 100% 100%, 0 100%);
+}
+.top-title {
+    font-size: 68px;
+    line-height: 0.75;
+}
+.top-search-card {
+    margin: 30px;
+}
+
+.top .top-content {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0px;
+    top: auto;
+    padding-left: 136px;
+    padding-right: 136px;
+}
+.top-content .top-content-container {
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+.search-form {
+    padding: 16px 0px;
+}
+
+.keyword-box .search-icon {
+    width: 64px;
+    height: 64px;
+    font-size: 48px;
+    text-align: center;
+    vertical-align: bottom;
+    line-height: 64px;
+}
+.keyword-box  .controller {
+    width: calc(100% - 64px);
+}

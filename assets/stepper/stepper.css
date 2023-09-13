@@ -1,0 +1,160 @@
+.form-control:disabled,
+.form-control[readonly] {
+    background-color: #fff;
+}
+
+/*----------step-wizard------------*/
+.d-flex {
+    display: flex;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+/*---------petis-step-------------*/
+.bg-color {
+    background-color: #333;
+}
+
+.petis-step-container {
+    padding: 80px 0px;
+    padding-bottom: 60px;
+}
+
+
+
+
+.wizard .nav-tabs {
+    position: relative;
+    margin-bottom: 0;
+    border-bottom-color: transparent;
+}
+
+.wizard>div.wizard-inner {
+    position: relative;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.connecting-line {
+    height: 2px;
+    background: #e0e0e0;
+    position: absolute;
+    width: 75%;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 40px;
+}
+
+span.round-tab {
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    display: inline-block;
+    border-radius: 50%;
+    background: #acaeaf;
+    z-index: 2;
+    text-align: center;
+    font-size: 48px;
+    color: #0e214b;
+    font-weight: 500;
+    color: white;
+    border: 1px solid #acaeaf;
+}
+
+.wizard .nav-tabs>li a i {
+    color: #555555;
+}
+
+.wizard li span.tab-title {
+    display: block;
+    text-align: center;
+}
+
+.wizard li.active span.round-tab {
+    background: #A5CAD2;
+    color: #fff;
+    border-color: #A5CAD2;
+}
+
+.wizard li.active span.round-tab i {
+    color: #5bc0de;
+}
+
+.wizard .nav-tabs>li.active i {
+    color: #A5CAD2;
+}
+
+.wizard .nav-tabs>li {
+    width: 25%;
+}
+
+.wizard li:after {
+    content: " ";
+    position: absolute;
+    left: 46%;
+    opacity: 0;
+    margin: 0 auto;
+    bottom: 0px;
+    border: 5px solid transparent;
+    border-bottom-color: red;
+    transition: 0.1s ease-in-out;
+}
+
+.wizard .nav-tabs>li a {
+    background-color: transparent;
+    position: relative;
+    text-decoration: none;
+    top: 0;
+}
+
+.wizard .nav-tabs>li i {
+    font-style: normal;
+    white-space: nowrap;
+    font-size: 25px;
+    font-weight: 700;
+    color: #000;
+}
+
+.wizard .nav-tabs>li a:hover {
+    background: transparent;
+}
+
+.wizard .tab-pane {
+    position: relative;
+    padding-top: 20px;
+}
+
+.wizard h3 {
+    margin-top: 0;
+}
+
+.prev-step,
+.next-step {
+    font-size: 13px;
+    padding: 8px 24px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 30px;
+}
+
+.next-step {
+    background-color: #0db02b;
+}
+
+.skip-btn {
+    background-color: #cec12d;
+}
+
+.step-head {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 20px;
+}

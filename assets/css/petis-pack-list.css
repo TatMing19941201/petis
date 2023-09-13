@@ -1,0 +1,14 @@
+.patis-pack-list-title {
+    color: #E3024E;
+    font-size: 24px;
+}
+
+.patis-pack-list-item {
+    color: #5A5A59;
+    border: none;
+    font-size: 24px;
+}
+
+.patis-pack-list-item:nth-of-type(odd) {
+    background-color: #F9F9F9;
+}

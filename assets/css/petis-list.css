@@ -1,0 +1,18 @@
+.petis-list {
+    min-width: fit-content;
+    height: fit-content;
+    overflow: hidden;
+}
+.petis-list-item {
+    float: left;
+    max-width: fit-content;
+    margin: 30px 30px 30px 0;
+}
+
+.petis-list-item img.petis-list-item-picture {
+    border-radius: 100%;
+}
+
+.petis-list-item-title {
+    font-size: 12px;
+}

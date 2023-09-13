@@ -1,0 +1,154 @@
+@font-face {
+  font-family: "Gotham black";
+  src: url(../fonts/metropolis/Metropolis-Black.otf);
+}
+
+@font-face {
+  font-family: "Gotham";
+  src: url(../fonts/metropolis/Metropolis-Medium.otf);
+}
+
+html {  
+  font-size: 20px;
+}
+
+body {
+  color: #949494;
+}
+
+.bg-primary {
+  background-color: #e3024e !important;
+}
+
+.bg-info {
+  background-color: #007a9a !important;
+}
+
+.text-primary {
+  color: #e3024e !important;
+}
+
+.text-info {
+  color: #007a9a !important;
+}
+
+.top-banner {
+    height: 48px;
+    line-height: 48px;
+    font-size: 16px;
+}
+
+.navbar {
+    height: 82px;;
+}
+
+.nav-item {
+    font-size: 1.2rem;
+}
+
+.max-width-fit {
+  max-width: fit-content;
+}
+
+@media (min-width: 992px) {
+  .navbar-expand-lg {
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+}
+
+.newsletter-card {
+  border-radius: 20px;
+  border: none;
+}
+
+.newsletter-card .card-img {
+  border-radius: 20px;
+}
+.newsletter-btn {
+  padding-left: 24px;
+  padding-right: 24px;
+  font-size: 20px;
+  border-radius: 12px;
+}
+
+.content {
+  padding-left: 136px;
+  padding-right: 136px;
+}
+
+.font-gotham-black {
+  font-family: "Gotham black", "Courier New", Courier, monospace;
+}
+
+.font-gotham {
+  font-family: "Gotham", "Courier New", Courier, monospace;
+}
+
+.btn-custom {
+  background: #cd0518;
+  background: linear-gradient(160deg, #cd0518 0%, #f90083 100%);
+  border-radius: 8px;
+}
+
+input:focus,
+button:focus,
+.form-control:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.btn-avancar, .btn-anterior {
+  font-size: 28px;
+  border-radius: 40px;
+  margin: 0 60px;
+}
+
+.btn-avancar {
+  height: 80px;
+  background-color: #cd0518;
+  color: white;
+}
+
+.btn-avancar:hover {
+  background-color: #D02D51;
+  color: white;
+}
+
+.btn-anterior {
+  height: 80px;
+  background-color: white;
+  color: #cd0518;
+}
+
+.btn-anterior:hover {
+  color: #D02D51;
+  background-color: #ffdce4;
+}
+
+input.petis-control {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    font-size: 25px;
+}
+
+input[type="text"].text-info, textarea {
+  border-bottom: 1px solid #007A9A;
+  background-color: transparent;
+}
+
+input[type="text"].text-info:focus, textarea.text-info {
+  border-bottom: 3px solid #007A9A;
+  background-color: transparent;
+}
+
+#scroll-to-top {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+}
